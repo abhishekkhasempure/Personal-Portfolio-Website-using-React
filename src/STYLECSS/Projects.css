@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+
+
+#todop{
+    color: rgb(255, 247, 247);
+    /* padding-right: 10px; */
+    font-family: "Permanent Marker", cursive;
+    font-size: 20px;
+}
+
+video{
+    /* padding-left: 50px; */
+    height: 50px;
+    width: 50px;
+}
+
+
+/* Container for all projects */
+.projects {
+    display: flex; /* Enable flexbox layout */
+    flex-wrap: wrap; /* Allow items to wrap onto new lines */
+    justify-content: center; /* Center items horizontally */
+    gap: 100px; /* Space between items */
+    padding: 20px; /* Padding around the container */
+    box-sizing: border-box; /* Include padding and border in width/height calculations */
+}
+
+/* Individual project item */
+.project-item {
+    display: flex; /* Enable flexbox layout within each item */
+    flex-direction: column; /* Stack video and caption vertically */
+    align-items: center; /* Center-align items horizontally */
+    width: 600px; /* Fixed width to match video width */
+    box-sizing: border-box; /* Include padding and border in width/height calculations */
+    background:#0c0c0c; /* Background color for better visibility */
+    border: 1px solid #ddd; /* Border for visual separation */
+    border-radius: 8px; /* Rounded corners */
+    padding: 10px; /* Padding inside each item */
+    box-shadow:  rgba(255, 255, 255, 0.15) 0px 4px 40px;
+    
+
+}
+
+/* Styling for the video element */
+.project-item video {
+    width: 100%; /* Make video take full width of the container */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 10px; /* Space between video and caption */
+}
+
+/* Styling for the paragraph */
+.project-item p {
+    margin: 0; /* Remove default margin from paragraphs */
+    font-weight: bold; /* Make the caption text bold */
+    text-align: center; /* Center-align text */
+    color: #333; /* Text color */
+}
+
+/* Styling for the heading */
+.projects h1 {
+    text-align: center; /* Center the heading text */
+    font-size: 2.5em; /* Larger font size for emphasis */
+    margin-bottom: 30px; /* Space below the heading */
+    color: #ececec; /* Heading color */
+    font-family: 'Arial', sans-serif; /* Font family */
+    width: 100%; /* Ensure the heading takes the full width of the container */
+    box-sizing: border-box; /* Include padding and border in width/height calculations */
+}
+
+
+
+
+/* dbedcebdhej */
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px; /* Space between project items */
+    padding: 20px;
+  }
+  
+  .project-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px; /* Optional: rounded corners */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+  }
+  
+  .project-item:hover {
+    transform: scale(1.05); /* Slightly enlarge the item */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Add shadow on hover */
+  }
+  
+  .project-item video {
+    display: block;
+    width: 100%; /* Make video responsive */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .project-description {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px; /* Rounded corners for the description */
+    transition: opacity 0.3s ease; /* Smooth transition */
+  }
+  
+  .project-item:hover .project-description {
+    opacity: 1; /* Show description on hover */
+  }
+  

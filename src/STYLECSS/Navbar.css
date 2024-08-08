@@ -1,0 +1,59 @@
+body
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+nav
+{
+background-color: #000000;
+height:70px;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+/* background: #222a35;     */
+}
+.icons{
+    height:45px;
+    margin-left: 30px;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle; /* Aligns vertically with the text */
+}
+
+.royal-text {
+    font-family: "Georgia", serif; /* Example of a royal-like font */
+    font-size: 15px; /* Adjust size as needed */
+    font-style: italic; /* Adds a touch of elegance */
+    color: #800080; /* Purple color, often associated with royalty */
+    vertical-align: middle; /* Aligns vertically with the image */
+    /* margin-right: 200px; Adjust spacing between image and text */
+ 
+}
+nav a
+{
+text-decoration: none;
+font-weight: bold;
+color: white;
+
+
+} 
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:60px;
+    margin-right:20px;
+}
+a:nth-child(6){
+    padding-right: 22px;
+}
+
+ nav .active:hover
+{
+ text-decoration: underline;
+ 
+}
+
+

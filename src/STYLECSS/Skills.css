@@ -1,0 +1,74 @@
+.skillset{
+    width: 50%;
+    background:#0c0c0c;
+    box-shadow:  rgba(255, 255, 255, 0.15) 0px 4px 40px;
+    border-radius: 2px;
+    padding: 18px 36px;
+    cursor: pointer;
+   margin-left: 100px;
+    /* display: inline-block;  */
+    /* display: flex;  */
+}
+.skill{
+    
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    gap: 20px;
+    -webkit-box-pack: center;
+    justify-content: center;
+
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+h1{
+    font-family: "Permanent Marker", cursive;
+    font-size: 42px;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 20px;
+    color: white;
+}
+p{
+    font-size: 18px;
+    text-align: center;
+    max-width: 600px;
+    color: rgb(177, 178, 179);
+    
+}
+
+.heading {
+    text-align: center; /* Center the heading text */
+    font-size: 2.5em; /* Larger font size for emphasis */
+    margin-bottom: 30px; /* Space below the heading */
+    color: #ececec; /* Heading color */
+    font-family: 'Arial', sans-serif; /* Font family */
+    width: 100%; /* Ensure the heading takes the full width of the container */
+    box-sizing: border-box; /* Include padding and border in width/height calculations */
+}
+
+    
+
+
+
+
+  /* image hovering effect */
+  .skill-img {
+   
+    transition: transform 0.3s ease, opacity 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+  }
+  
+  .skill-img:hover {
+    transform: scale(1.1); /* Scales the image up to 110% */
+    opacity: 0.8; /* Optional: Makes the image slightly transparent */
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.1); /* White shadow effect */
+  }
+  

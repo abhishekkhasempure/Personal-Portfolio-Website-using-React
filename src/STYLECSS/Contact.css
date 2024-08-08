@@ -1,0 +1,86 @@
+
+#Contact {
+    max-width: 5000px;
+    height: 600px;
+    margin: 60px;
+    /* margin-right: 90px; */
+    padding: 20px;
+    padding-left: 70px;
+    /* border: 1px solid #ccc; */
+    border-radius: 5px;
+    /* background-color: #181717; */
+    background:#0c0c0c; 
+    box-shadow:  rgba(255, 255, 255, 0.15) 0px 4px 40px;
+    display: flex;
+    margin-top: 10px;
+    
+}
+
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+
+input[type="text"],
+input[type="email"] {
+    /* margin:20px ; */
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; 
+    align-items: center;
+}
+
+button {
+    width: 70%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #09a309;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #63806c;
+}
+
+.textarea{
+    flex: 1 1 0%;
+    background-color: transparent;
+    border: 1px solid rgb(177, 178, 179);
+    outline: none;
+    font-size: 18px;
+    color: rgb(242, 243, 244);
+    border-radius: 1px;
+    padding: 12px 16px;
+    width: 120%;
+    height: 40%;
+}
+
+#maps{
+    margin-top: 30px;
+    margin-left: 200px;
+    /* border: 10px solid white; */
+    padding: 0px 20px;
+    /* height: 545px; */
+    
+}

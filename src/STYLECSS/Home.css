@@ -1,0 +1,180 @@
+
+/* .Home{
+    font-family: Caveat, cursive;
+    
+    height: 550px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-image: url("../../public/image.jpg" );
+    background-size: cover;
+    
+
+     
+}
+.abhi{
+ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 90%;
+    margin-top: 10px;
+}
+.abhi h1{
+    color: red;
+    text-align: left;
+  
+}
+
+.image{
+    
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+        width: 30%;  
+       
+    
+}
+
+
+.image img{
+    height: 70%;
+    
+} */
+
+
+
+
+.Home {
+    font-family: 'Caveat', cursive;
+    /* height: 550px;  */
+    height:600px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px; 
+    /* background-image: url("");
+    background-repeat: no-repeat;
+    background-size:cover; */
+    
+    
+    
+
+   
+}
+
+.App{
+    
+    margin-bottom: 500px;
+}
+
+.abhi {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Adjust to center content vertically */
+    align-items: flex-start; /* Align items to the left */
+    width: 60%; /* Adjust width for better balance with image */
+    padding: 20px; /* Add padding for better spacing */
+    padding-bottom: 250px;
+}
+
+.abhi h1 {
+    color: #ff6347; /* Red color */
+    font-size: 2.5rem; /* Larger font size */
+    margin-bottom: 10px; /* Add some space below the heading */
+    text-align: left;
+}
+#stick{
+    display: flex;
+    position:absolute;
+    margin-top: 300px;
+}
+
+.image {
+    display: flex;
+    justify-content: center; /* Center image horizontally */
+    align-items: center; /* Center image vertically */
+    width: 45%; /* 45% Adjust width for better balance with text */
+    overflow: hidden; /* Hide any overflow to prevent image stretching */
+    /* border: 2px solid red; */
+    /* margin-right: 90px ; */
+    /* margin-top: 20px; */
+    /* width: 60%; */
+    box-shadow:  rgba(255, 255, 255, 0.15) 0px 4px 40px;
+    /* margin-bottom: 70px; */
+    /* margin-top: 100px; */
+    height: 75%;      /* 90% */
+    /* padding-left: 20px; */
+    margin-right: 60px;
+   margin-top: 20px;
+    
+}
+
+
+
+.image img {
+    /* background:#0c0c0c; */
+    box-shadow:  rgba(255, 255, 255, 0.15) 0px 4px 40px;
+    max-width: 100%; 
+    max-height: 100%;
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Add rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+    /* padding-right: 90px; */
+    /* margin-right: 100px; */
+    /* margin-top: 150px; */
+    /* margin-bottom: 80px; */
+    /* border: 1px solid white; */
+    width: 400px;     /*  500px */
+    
+    
+}
+
+.footer__socials {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    /* margin-bottom: 1rem; */
+    display:flexbox;
+    margin-top: 100px;
+    margin-bottom: 70px;
+    /* border: 2px solid red; */
+    position: absolute;
+    margin-left: 9%;
+    margin-top: 40%
+    
+    
+
+}
+
+.footer__socials a {
+    background: var(--color-bg);
+    color: var(--color-white);
+    padding: 0.8rem;
+    border-radius: 0.7rem;
+    display: flex;
+    border: 1px solid transparent;
+    /* height: 90px; */
+    /* width: 700px; */
+    /* border: 2px solid red; */
+    font-size: 30px;
+}
+
+.footer__socials a:hover {
+    background: transparent;
+    color: var(--color-bg);
+    border-color: var(--color-bg);
+}
+
+.footer__copyright{
+    display: flex;
+    position: absolute;
+    margin-top: 70px;
+    margin-right: 50px;
+}
+
+
+

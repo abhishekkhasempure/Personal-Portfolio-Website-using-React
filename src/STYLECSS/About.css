@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.About{
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+    margin: 0;
+    padding: 0px
+    
+}
+
+#arrow{
+    margin-left: 45%;
+}
+
+.para1{
+    font-weight: 600;
+    font-size: 40px;
+    /* color: rgb(242, 243, 244); */
+    color: rgb(238, 238, 238);
+    line-height: 68px;
+    font-family: Caveat, cursive;
+    
+} 
+.bc{
+
+    background-image: url('../assets/9b188d6e-8e92-42dc-816d-c741ab2ce0bc.jpg');
+    background-position: 100% 70%;
+    background-size: cover;
+    margin:0px;
+    height: 400px;
+
+    
+    
+}
+
+.audio-container {
+    max-width: 1400px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #000000;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+    margin-top: 30px;
+}
+
+.audio-player {
+    width: 100%;
+    outline: none; /* Remove default focus outline */
+}
+
+.audio-player::-webkit-media-controls-panel {
+    background-color: #000000; /* Adjust controls panel background */
+    border-radius: 8px; /* Rounded corners for controls */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for controls */
+    color: black;
+}
+
+/* p{
+    font-size: 800px;
+    padding-left: 200px;
+} */
+
+li{
+    width: 100%;
+    text-wrap: wrap;
+}
+section{
+    /* border: 2px solid white; */
+    height: 1900px;
+    width: 90%;
+    margin-left: 60px;
+    background:#0c0c0c;
+    box-shadow:  rgba(255, 255, 255, 0.15) 0px 4px 40px;
+}
+
+
+/* !__________________________________________ */
+/* Ensure the section takes up the full width */
+section {
+    /* width: 100%; */
+    padding: 20px; /* Add padding for spacing */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+/* Style the form to take up the full width of its container */
+form {
+    width: 100%;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+/* Style the ul to take up the full width */
+ul {
+    list-style: none; /* Remove default list bullets */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    width: 100%; /* Ensure ul takes up the full width */
+}
+
+/* Style the li to ensure it stretches across the full width */
+li {
+    width: 100%;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    font-size: 20px;
+}
+
+/* Style the paragraph to ensure it takes up the full width and provides spacing */
