@@ -3,7 +3,6 @@
     max-width: 5000px;
     height: 600px;
     margin: 60px;
-    /* margin-right: 90px; */
     padding: 20px;
     padding-left: 70px;
     /* border: 1px solid #ccc; */
@@ -81,6 +80,5 @@ button:hover {
     margin-left: 200px;
     /* border: 10px solid white; */
     padding: 0px 20px;
-    /* height: 545px; */
-    
+ 
 }

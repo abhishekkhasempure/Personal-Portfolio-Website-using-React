@@ -23,12 +23,12 @@ justify-content: space-between;
 }
 
 .royal-text {
-    font-family: "Georgia", serif; /* Example of a royal-like font */
-    font-size: 15px; /* Adjust size as needed */
-    font-style: italic; /* Adds a touch of elegance */
-    color: #800080; /* Purple color, often associated with royalty */
-    vertical-align: middle; /* Aligns vertically with the image */
-    /* margin-right: 200px; Adjust spacing between image and text */
+    font-family: "Georgia", serif; 
+    font-size: 15px; 
+    font-style: italic; 
+    color: #800080; 
+    vertical-align: middle; 
+   
  
 }
 nav a

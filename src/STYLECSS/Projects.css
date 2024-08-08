@@ -6,9 +6,6 @@
 }
 
 
-
-
-
 #todop{
     color: rgb(255, 247, 247);
     /* padding-right: 10px; */
@@ -25,25 +22,25 @@ video{
 
 /* Container for all projects */
 .projects {
-    display: flex; /* Enable flexbox layout */
-    flex-wrap: wrap; /* Allow items to wrap onto new lines */
-    justify-content: center; /* Center items horizontally */
-    gap: 100px; /* Space between items */
-    padding: 20px; /* Padding around the container */
-    box-sizing: border-box; /* Include padding and border in width/height calculations */
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;  
+    gap: 100px; 
+    padding: 20px; 
+    box-sizing: border-box;
 }
 
-/* Individual project item */
+
 .project-item {
-    display: flex; /* Enable flexbox layout within each item */
-    flex-direction: column; /* Stack video and caption vertically */
-    align-items: center; /* Center-align items horizontally */
-    width: 600px; /* Fixed width to match video width */
-    box-sizing: border-box; /* Include padding and border in width/height calculations */
-    background:#0c0c0c; /* Background color for better visibility */
-    border: 1px solid #ddd; /* Border for visual separation */
-    border-radius: 8px; /* Rounded corners */
-    padding: 10px; /* Padding inside each item */
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    width: 600px; 
+    box-sizing: border-box; 
+    background:#0c0c0c; 
+    border: 1px solid #ddd; 
+    border-radius: 8px; 
+    padding: 10px; 
     box-shadow:  rgba(255, 255, 255, 0.15) 0px 4px 40px;
     
 
@@ -51,34 +48,31 @@ video{
 
 /* Styling for the video element */
 .project-item video {
-    width: 100%; /* Make video take full width of the container */
-    height: auto; /* Maintain aspect ratio */
-    margin-bottom: 10px; /* Space between video and caption */
+    width: 100%; 
+    height: auto; 
+    margin-bottom: 10px; 
 }
 
-/* Styling for the paragraph */
+
 .project-item p {
-    margin: 0; /* Remove default margin from paragraphs */
-    font-weight: bold; /* Make the caption text bold */
-    text-align: center; /* Center-align text */
+    margin: 0; 
+    font-weight: bold; 
+    text-align: center; 
     color: #333; /* Text color */
 }
 
-/* Styling for the heading */
+
 .projects h1 {
-    text-align: center; /* Center the heading text */
-    font-size: 2.5em; /* Larger font size for emphasis */
-    margin-bottom: 30px; /* Space below the heading */
+    text-align: center; 
+    font-size: 2.5em; 
+    margin-bottom: 30px; 
     color: #ececec; /* Heading color */
-    font-family: 'Arial', sans-serif; /* Font family */
-    width: 100%; /* Ensure the heading takes the full width of the container */
-    box-sizing: border-box; /* Include padding and border in width/height calculations */
+    font-family: 'Arial', sans-serif; 
+    width: 100%; 
+    box-sizing: border-box; 
 }
 
 
-
-
-/* dbedcebdhej */
 
 .projects {
     display: flex;
@@ -109,14 +103,14 @@ video{
     position: absolute;
     bottom: 10px;
     left: 10px;
-    background: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+    background: rgba(0, 0, 0, 0.6); 
     color: white;
     padding: 5px 10px;
-    border-radius: 4px; /* Rounded corners for the description */
+    border-radius: 4px; 
     transition: opacity 0.3s ease; /* Smooth transition */
   }
   
   .project-item:hover .project-description {
-    opacity: 1; /* Show description on hover */
+    opacity: 1; /
   }
   
