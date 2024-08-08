@@ -79,6 +79,7 @@ video{
     flex-wrap: wrap;
     gap: 70px; /* Space between project items */
     padding: 20px;
+    
   }
   
   .project-item {
