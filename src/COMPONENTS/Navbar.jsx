@@ -6,7 +6,7 @@ function Navbar ()  {
   return (
     <nav className='navbar'>
       <div>
-      <img src="https://img.icons8.com/?size=80&id=55458&format=png"   alt="LOGO" className='icons' /><span className="royal-text"><img src="../../public/logo.gif" alt="" style={{height:"70px"}}/></span>
+      <img src="https://img.icons8.com/?size=80&id=55458&format=png"   alt="LOGO" className='icons' /><span className="royal-text"><img src="../../logo.gif" alt="" style={{height:"70px"}}/></span>
       </div>
 
     <div className='links'>
