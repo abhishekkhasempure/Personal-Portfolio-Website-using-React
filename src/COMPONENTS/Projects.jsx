@@ -10,17 +10,17 @@ const Projects = () => {
       </div>
 
       <div className="project-item">
-        <video src="../../public/amazon.mp4" height="400px" width="600" controls></video>
+        <video src="../../amazon.mp4" height="400px" width="600" controls></video>
         <p id='todop'>Amazon Clone</p>
       </div>
 
       <div className="project-item">
-        <video src="../../public/Faq.mp4" height="400px" width="600" controls></video>
+        <video src="../../Faq.mp4" height="400px" width="600" controls></video>
         <p id='todop'>FAQ </p>
       </div>
 
       <div className="project-item">
-      <video src="../../public/weatherapi.mp4" height="400px" width="600" controls></video>
+      <video src="../../weatherapi.mp4" height="400px" width="600" controls></video>
         <p id='todop'>Weather Api</p>
       </div>
 
