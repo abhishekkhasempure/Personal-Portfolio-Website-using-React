@@ -2,9 +2,9 @@
 #Contact {
     max-width: 5000px;
     height: 600px;
-    margin: 60px;
+    /* margin: 60px; */
     padding: 20px;
-    padding-left: 70px;
+    /* padding-left: 70px; */
     /* border: 1px solid #ccc; */
     border-radius: 5px;
     /* background-color: #181717; */
@@ -12,6 +12,9 @@
     box-shadow:  rgba(255, 255, 255, 0.15) 0px 4px 40px;
     display: flex;
     margin-top: 10px;
+    /* border: 2px solid red; */
+    width: 90%;
+    margin-left: 40px;
     
 }
 
@@ -82,3 +85,4 @@ button:hover {
     padding: 0px 20px;
  
 }
+
